@@ -1,0 +1,86 @@
+
+* {
+    font-family: 'Gabarito', sans-serif;
+}
+
+
+h1,
+h2,
+h3, 
+h4, 
+h5,
+h6 { 
+    font-family: 'Gabarito', sans-serif;
+    margin: 10px 0;
+}
+h1 {
+    color:deeppink;
+    font-size: 4rem;
+    font-family: 'Questrial', sans-serif;
+}
+
+h2 {
+    color:gold;
+    font-size: 3rem;
+    
+}
+
+h3 {
+    color: coral;
+    font-size: 2.5rem;
+    font-family: 'Gabarito', sans-serif;
+}
+
+h4{
+    color: deepskyblue;
+    font-size: 2.5rem;
+    font-family: 'Gabarito', sans-serif;
+}
+
+h5 {
+font-size: 1.5 rem;
+font-family: 'Gabarito', sans-serif;
+}
+
+h6 {
+ font-size: 1.25 rem;
+ font-family: 'Gabarito', sans-serif;
+}
+ 
+
+section { 
+    border: 1px red solid;
+}
+
+
+.contanier {
+    display:flex;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+#hero {
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#features div {
+ justify-content: space-around;
+}
+
+.img-feat {
+    border-radius: 48px;
+}
+
+#news {
+    text-align: center;
+}
+
+#news div {
+    justify-content: space-around;
+}

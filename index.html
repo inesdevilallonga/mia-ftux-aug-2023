@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ines Portfolio</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Questrial&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+
+    </style>
 </head>
 
 <body>
 <!-- Header - Start -->
  
 
-<header>
+<header class="container">
      <img scr="https://source.unsplash.com/random/80x80/?ux-designer/" alt=""/>
     <nav>
         <a href="#">Portfolio</a>
         <a href="#">About Me</a>
         <a href="#">contact</a>
         <a href="#">Download CV</a>
+
       
      </nav> 
 </header>
@@ -24,7 +34,7 @@
 <!-- Header - End -->
 
 <!-- Features - Start -->
-<section> 
+<section class="container"> 
 
  <!-- Feature 1 - Start -->
  <h1>hi i'm inés</h1>
@@ -38,7 +48,7 @@
  <!-- Feature 2 - Start -->
  <h1> hi i'm inés</h1>
  <div
-  <img scr="https://source.unsplash.com/random/400x400/?ux-designer/"
+  <img scr="https://source.unsplash.com/random/400x400/?ux-designer/" alt="class"
    alt=""/>
   <h4> Feature 2</h4>
 </div>
@@ -49,7 +59,7 @@
  <div
   <img scr="https://source.unsplash.com/random/400x400/?ux-designer/"
    alt=""/>
-  <h4> Feature 3</h4>
+  <h4{color;purple}> Feature 3</h4>
 </div>
   <!-- Feature 3 - End -->
 </section>
@@ -86,22 +96,36 @@
  <!-- News 3 - End -->
 
  <!-- Contact- Start -->
-<section>
+<section class="container">
+     <div>
      <h2> Contact</h2>
      <p> Address</p>
      <p> Phone</p>
+</div>
 
-     <form action="">
-          name
-          email
-          message
-          button
-     </form>
+<section class="container" id="contact">
+
 </section>
+
+<br/><br/>
+     <form action="#">
+          <label for="fullname">Name</label><br/>
+          <input type="text" id="fullname" placeholder=" bruce wayne" />
+
+          <input type="email" id="email" placeholder="bruce@batman.com"
+          <label for="email">Email</label>
+
+          <br/> <br/>
+
+          <textarea id=" message" placeholder="">write <message></message></textarea>
+          <input type="submit" value="Send message" />
+
+      </form>
+</section class="container">
  <!-- Contact- End -->
 
   <!-- Footer- Start -->
-  <footer>
+  <footer class="container">
      <h4> Follow Me</h4>
      Linkedin instagram x
   </footer>
